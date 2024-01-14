@@ -54,10 +54,10 @@ if (isset($_POST["submit"])) {
             <div class="container">
                 <form class="formulaire" action="singin.php" method="post">
                     <label for="" class="labelUp">E-mail or username:</label>
-                    <input type="text" class="inputUp" name="email" placeholder="exemple@gmail.com">
+                    <input type="text" name="email" placeholder="exemple@gmail.com">
 
                     <label for="" class="labelUp">Password :</label>
-                    <input type="password" class="inputUp" name="password" placeholder="complex passord">
+                    <input type="password" name="password" placeholder="complex passord">
 
                     <button type="submit" name="submit">
                         <span>submit</span>
