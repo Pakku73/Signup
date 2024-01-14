@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+}
+
+body{
+    margin: 0;
+    /* background-color: rgb(36, 36, 112); */
+    background-color: linear-gradient (90deg, rgb(223, 223, 250) 0%, white 100%);
+    font-family: 'Titillium Web';
+}
+
+.validPages{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+}
+
+.msgp{
+    color: #a52a2a;
+}
+
+.main_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.2%;
+}
+
+.container{
+    margin: 0, auto;
+    width: 16vw;
+    height: 24vw;
+    padding: 1vh;
+    padding-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    box-shadow: 4px 4px 16px rgb(138, 138, 138);
+}
+
+label{
+    padding: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+input{
+    margin-bottom: 8px;
+    padding: 4%;
+    height: 2%;
+    border: none;
+    border-radius: 20px;
+    font-size: 80%;
+}
+
+input:focus{
+    border-radius: 4px;
+    border: 2px solid violet;
+    outline: none;
+}
+
+button{
+    margin-top: 24px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(74, 74, 171);
+    font-weight: 400;
+    font-size: 2vh;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(60, 60, 110);
+    border: 2px solid rgb(23, 169, 23);
+}
+
+.singinBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.Btn{
+    margin-top: 4vw;
+    background-color: red;
+    width: 8vw;
+    height: 2vw;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 2vh;
+    color: white;
+}
+
+footer{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+    height: 8.8vw;
+}
+
+p{
+    color: white;
+    font-size: 4vh;
+}
