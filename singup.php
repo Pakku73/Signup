@@ -56,7 +56,7 @@ $con->close();
                     <input type="text" name="username" placeholder="azerty78">
 
                     <label for="" class="labelUp">Phone :</label>
-                    <input type="text" name="phone" placeholder="06 ** ** ** **">
+                    <input type="text" name="phone" placeholder="0* ** ** ** **">
 
                     <label for="" class="labelUp">Password :</label>
                     <input type="password" name="password" placeholder="complex passord">
