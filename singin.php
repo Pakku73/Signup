@@ -21,13 +21,13 @@ function login()
     $dbemail = $result['email'];
     $dbpassword = $result['password'];
 
+    if($email == "" || $password == ""){
+        echo "<div class='msg'><p class='msgp'>Des champs obligatoires n'ont pas été remplis !</p></div> <br>";
+    }
     if ($email == $dbemail && password_verify($password, $dbpassword)) {
         print_r("true");
         header("Location:./config.php");
     } 
-    if($email == "" || $password == ""){
-        echo "<div class='msg'><p class='msgp'>Des champs obligatoires n'ont pas été remplis !</p></div> <br>";
-    }
     else {
         print_r("Connection échoué. L'email ou le mot de passe est incorrect");
     }
